@@ -1,0 +1,957 @@
+{
+  "meta": {
+    "synthetic": true,
+    "prototype": "B2C INSIGHTS + Learning & Practice",
+    "generatedFor": "React prototype",
+    "disclaimer": "All learner, score, readiness, recommendation, and practice data are synthetic. They do not reproduce operational NBME scoring or psychometric models."
+  },
+  "profile": {
+    "studentId": "SYN001",
+    "firstName": "Maya",
+    "lastName": "Patel",
+    "displayName": "Maya Patel",
+    "schoolName": "Example University School of Medicine",
+    "medicalSchoolYear": "MS3",
+    "currentFocus": "Internal Medicine",
+    "primaryGoal": "Prepare for the Medicine Subject Exam",
+    "isPrimaryDemo": true
+  },
+  "home": {
+    "latestAssessment": {
+      "assessmentId": "SYN001-A07",
+      "assessmentName": "Comprehensive Clinical Science Self-Assessment",
+      "testDate": "2026-08-07",
+      "totalScore": 241,
+      "totalScoreType": "1-300"
+    },
+    "recommendedNextStep": {
+      "domainCode": "CARDIO",
+      "domainName": "Cardiovascular System",
+      "reason": "Cardiovascular System remains one of your lower-performing areas despite recent improvement.",
+      "action": "TARGETED_PRACTICE",
+      "questionCount": 10,
+      "ctaLabel": "Start targeted practice"
+    },
+    "practiceStats": {
+      "sessionsCompleted": 4,
+      "questionsCompleted": 40,
+      "weightedPercentCorrect": 70
+    }
+  },
+  "readiness": [
+    {
+      "target": "STEP2",
+      "sourceAssessmentId": "SYN001-A07",
+      "sourceAssessmentName": "Comprehensive Clinical Science Self-Assessment",
+      "sourceTestDate": "2026-08-07",
+      "probability": 79,
+      "label": "On track"
+    }
+  ],
+  "currentDomainPerformance": [
+    {
+      "domainCode": "CARDIO",
+      "domainName": "Cardiovascular System",
+      "currentSignal": 68,
+      "currentBand": "Lower",
+      "assessmentSignal": 67.7,
+      "assessmentsObserved": 7,
+      "practiceSessions": 3,
+      "latestPracticeScore": 80
+    },
+    {
+      "domainCode": "RENAL",
+      "domainName": "Renal & Urinary System",
+      "currentSignal": 70,
+      "currentBand": "Similar",
+      "assessmentSignal": 70.1,
+      "assessmentsObserved": 7,
+      "practiceSessions": 1,
+      "latestPracticeScore": 70
+    },
+    {
+      "domainCode": "RESP",
+      "domainName": "Respiratory System",
+      "currentSignal": 77,
+      "currentBand": "Similar",
+      "assessmentSignal": 76.7,
+      "assessmentsObserved": 7,
+      "practiceSessions": 0,
+      "latestPracticeScore": null
+    },
+    {
+      "domainCode": "GI",
+      "domainName": "Gastrointestinal System",
+      "currentSignal": 76,
+      "currentBand": "Similar",
+      "assessmentSignal": 75.9,
+      "assessmentsObserved": 7,
+      "practiceSessions": 0,
+      "latestPracticeScore": null
+    },
+    {
+      "domainCode": "ENDO",
+      "domainName": "Endocrine System",
+      "currentSignal": 74,
+      "currentBand": "Similar",
+      "assessmentSignal": 73.7,
+      "assessmentsObserved": 7,
+      "practiceSessions": 0,
+      "latestPracticeScore": null
+    },
+    {
+      "domainCode": "HEME_IMMUNE",
+      "domainName": "Immune, Blood & Lymphoreticular Systems",
+      "currentSignal": 73,
+      "currentBand": "Similar",
+      "assessmentSignal": 72.8,
+      "assessmentsObserved": 7,
+      "practiceSessions": 0,
+      "latestPracticeScore": null
+    },
+    {
+      "domainCode": "MSK_SKIN",
+      "domainName": "Musculoskeletal, Skin & Subcutaneous Tissue",
+      "currentSignal": 74,
+      "currentBand": "Similar",
+      "assessmentSignal": 73.8,
+      "assessmentsObserved": 7,
+      "practiceSessions": 0,
+      "latestPracticeScore": null
+    },
+    {
+      "domainCode": "NEURO",
+      "domainName": "Nervous System & Special Senses",
+      "currentSignal": 75,
+      "currentBand": "Similar",
+      "assessmentSignal": 74.7,
+      "assessmentsObserved": 7,
+      "practiceSessions": 0,
+      "latestPracticeScore": null
+    },
+    {
+      "domainCode": "REPRO",
+      "domainName": "Reproductive System",
+      "currentSignal": 72,
+      "currentBand": "Similar",
+      "assessmentSignal": 72.4,
+      "assessmentsObserved": 7,
+      "practiceSessions": 0,
+      "latestPracticeScore": null
+    },
+    {
+      "domainCode": "BEHAVIORAL",
+      "domainName": "Behavioral Health",
+      "currentSignal": 77,
+      "currentBand": "Similar",
+      "assessmentSignal": 77,
+      "assessmentsObserved": 7,
+      "practiceSessions": 0,
+      "latestPracticeScore": null
+    },
+    {
+      "domainCode": "MULTISYSTEM",
+      "domainName": "Multisystem Processes & Disorders",
+      "currentSignal": 73,
+      "currentBand": "Similar",
+      "assessmentSignal": 72.6,
+      "assessmentsObserved": 7,
+      "practiceSessions": 0,
+      "latestPracticeScore": null
+    },
+    {
+      "domainCode": "BIOSTATS",
+      "domainName": "Biostatistics & Epidemiology",
+      "currentSignal": 77,
+      "currentBand": "Similar",
+      "assessmentSignal": 76.6,
+      "assessmentsObserved": 7,
+      "practiceSessions": 0,
+      "latestPracticeScore": null
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "domainCode": "CARDIO",
+      "domainName": "Cardiovascular System",
+      "currentSignal": 68,
+      "currentBand": "Lower",
+      "reason": "Cardiovascular System remains one of your lower-performing areas despite recent improvement.",
+      "action": "TARGETED_PRACTICE",
+      "questionCount": 10,
+      "ctaLabel": "Start targeted practice"
+    },
+    {
+      "rank": 2,
+      "domainCode": "RENAL",
+      "domainName": "Renal & Urinary System",
+      "currentSignal": 70,
+      "currentBand": "Similar",
+      "reason": "Recent assessment and practice results suggest additional work in Renal & Urinary System.",
+      "action": "TARGETED_PRACTICE",
+      "questionCount": 5,
+      "ctaLabel": "Practice this area"
+    },
+    {
+      "rank": 3,
+      "domainCode": "REPRO",
+      "domainName": "Reproductive System",
+      "currentSignal": 72,
+      "currentBand": "Similar",
+      "reason": "Reproductive System is one of your lower-performing areas across recent assessments.",
+      "action": "TARGETED_PRACTICE",
+      "questionCount": 5,
+      "ctaLabel": "Practice this area"
+    }
+  ],
+  "assessments": [
+    {
+      "assessmentId": "SYN001-A01",
+      "assessmentCode": "CBSE",
+      "assessmentName": "Comprehensive Basic Science Exam",
+      "family": "Subject Exam",
+      "phase": "Pre-clerkship",
+      "testDate": "2025-02-14",
+      "totalScore": 73,
+      "totalScoreType": "EPC",
+      "totalEpcEquivalent": 73,
+      "readiness": {
+        "target": "STEP1",
+        "probability": 90
+      },
+      "contentAreas": [
+        {
+          "domainCode": "CARDIO",
+          "domainName": "Cardiovascular System",
+          "score": 63,
+          "performanceBand": "Lower",
+          "relativeToAssessment": -8.8
+        },
+        {
+          "domainCode": "RENAL",
+          "domainName": "Renal & Urinary System",
+          "score": 68,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -3.8
+        },
+        {
+          "domainCode": "RESP",
+          "domainName": "Respiratory System",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 4.2
+        },
+        {
+          "domainCode": "GI",
+          "domainName": "Gastrointestinal System",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 4.2
+        },
+        {
+          "domainCode": "ENDO",
+          "domainName": "Endocrine System",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.2
+        },
+        {
+          "domainCode": "HEME_IMMUNE",
+          "domainName": "Immune, Blood & Lymphoreticular Systems",
+          "score": 71,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -0.8
+        },
+        {
+          "domainCode": "MSK_SKIN",
+          "domainName": "Musculoskeletal, Skin & Subcutaneous Tissue",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.2
+        },
+        {
+          "domainCode": "NEURO",
+          "domainName": "Nervous System & Special Senses",
+          "score": 74,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 2.2
+        },
+        {
+          "domainCode": "REPRO",
+          "domainName": "Reproductive System",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.2
+        },
+        {
+          "domainCode": "BEHAVIORAL",
+          "domainName": "Behavioral Health",
+          "score": 74,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 2.2
+        },
+        {
+          "domainCode": "MULTISYSTEM",
+          "domainName": "Multisystem Processes & Disorders",
+          "score": 71,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -0.8
+        },
+        {
+          "domainCode": "BIOSTATS",
+          "domainName": "Biostatistics & Epidemiology",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1.2
+        }
+      ]
+    },
+    {
+      "assessmentId": "SYN001-A02",
+      "assessmentCode": "CBSSA",
+      "assessmentName": "Comprehensive Basic Science Self-Assessment",
+      "family": "Self-Assessment",
+      "phase": "Pre-clerkship",
+      "testDate": "2025-04-26",
+      "totalScore": 73,
+      "totalScoreType": "EPC",
+      "totalEpcEquivalent": 73,
+      "readiness": {
+        "target": "STEP1",
+        "probability": 90
+      },
+      "contentAreas": [
+        {
+          "domainCode": "CARDIO",
+          "domainName": "Cardiovascular System",
+          "score": 65,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -6.8
+        },
+        {
+          "domainCode": "RENAL",
+          "domainName": "Renal & Urinary System",
+          "score": 69,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -2.8
+        },
+        {
+          "domainCode": "RESP",
+          "domainName": "Respiratory System",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 4.2
+        },
+        {
+          "domainCode": "GI",
+          "domainName": "Gastrointestinal System",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1.2
+        },
+        {
+          "domainCode": "ENDO",
+          "domainName": "Endocrine System",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.2
+        },
+        {
+          "domainCode": "HEME_IMMUNE",
+          "domainName": "Immune, Blood & Lymphoreticular Systems",
+          "score": 70,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1.8
+        },
+        {
+          "domainCode": "MSK_SKIN",
+          "domainName": "Musculoskeletal, Skin & Subcutaneous Tissue",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.2
+        },
+        {
+          "domainCode": "NEURO",
+          "domainName": "Nervous System & Special Senses",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1.2
+        },
+        {
+          "domainCode": "REPRO",
+          "domainName": "Reproductive System",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.2
+        },
+        {
+          "domainCode": "BEHAVIORAL",
+          "domainName": "Behavioral Health",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1.2
+        },
+        {
+          "domainCode": "MULTISYSTEM",
+          "domainName": "Multisystem Processes & Disorders",
+          "score": 70,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1.8
+        },
+        {
+          "domainCode": "BIOSTATS",
+          "domainName": "Biostatistics & Epidemiology",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 4.2
+        }
+      ]
+    },
+    {
+      "assessmentId": "SYN001-A03",
+      "assessmentCode": "CBSSA",
+      "assessmentName": "Comprehensive Basic Science Self-Assessment",
+      "family": "Self-Assessment",
+      "phase": "Pre-clerkship",
+      "testDate": "2025-06-08",
+      "totalScore": 70,
+      "totalScoreType": "EPC",
+      "totalEpcEquivalent": 70,
+      "readiness": {
+        "target": "STEP1",
+        "probability": 83
+      },
+      "contentAreas": [
+        {
+          "domainCode": "CARDIO",
+          "domainName": "Cardiovascular System",
+          "score": 64,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -7.8
+        },
+        {
+          "domainCode": "RENAL",
+          "domainName": "Renal & Urinary System",
+          "score": 67,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -4.8
+        },
+        {
+          "domainCode": "RESP",
+          "domainName": "Respiratory System",
+          "score": 75,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 3.2
+        },
+        {
+          "domainCode": "GI",
+          "domainName": "Gastrointestinal System",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.2
+        },
+        {
+          "domainCode": "ENDO",
+          "domainName": "Endocrine System",
+          "score": 75,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 3.2
+        },
+        {
+          "domainCode": "HEME_IMMUNE",
+          "domainName": "Immune, Blood & Lymphoreticular Systems",
+          "score": 70,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1.8
+        },
+        {
+          "domainCode": "MSK_SKIN",
+          "domainName": "Musculoskeletal, Skin & Subcutaneous Tissue",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.2
+        },
+        {
+          "domainCode": "NEURO",
+          "domainName": "Nervous System & Special Senses",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1.2
+        },
+        {
+          "domainCode": "REPRO",
+          "domainName": "Reproductive System",
+          "score": 74,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 2.2
+        },
+        {
+          "domainCode": "BEHAVIORAL",
+          "domainName": "Behavioral Health",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 4.2
+        },
+        {
+          "domainCode": "MULTISYSTEM",
+          "domainName": "Multisystem Processes & Disorders",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.2
+        },
+        {
+          "domainCode": "BIOSTATS",
+          "domainName": "Biostatistics & Epidemiology",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.2
+        }
+      ]
+    },
+    {
+      "assessmentId": "SYN001-A04",
+      "assessmentCode": "MED_MASTERY",
+      "assessmentName": "Medicine Clinical Science Mastery Series",
+      "family": "Self-Assessment",
+      "phase": "Clerkship",
+      "testDate": "2026-05-12",
+      "totalScore": 20,
+      "totalScoreType": "1-30",
+      "totalEpcEquivalent": 70,
+      "readiness": {},
+      "contentAreas": [
+        {
+          "domainCode": "CARDIO",
+          "domainName": "Cardiovascular System",
+          "score": 69,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -4.9
+        },
+        {
+          "domainCode": "RENAL",
+          "domainName": "Renal & Urinary System",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1.9
+        },
+        {
+          "domainCode": "RESP",
+          "domainName": "Respiratory System",
+          "score": 74,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.1
+        },
+        {
+          "domainCode": "GI",
+          "domainName": "Gastrointestinal System",
+          "score": 77,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 3.1
+        },
+        {
+          "domainCode": "ENDO",
+          "domainName": "Endocrine System",
+          "score": 74,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.1
+        },
+        {
+          "domainCode": "HEME_IMMUNE",
+          "domainName": "Immune, Blood & Lymphoreticular Systems",
+          "score": 75,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1.1
+        },
+        {
+          "domainCode": "MSK_SKIN",
+          "domainName": "Musculoskeletal, Skin & Subcutaneous Tissue",
+          "score": 74,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.1
+        },
+        {
+          "domainCode": "NEURO",
+          "domainName": "Nervous System & Special Senses",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 2.1
+        },
+        {
+          "domainCode": "REPRO",
+          "domainName": "Reproductive System",
+          "score": 71,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -2.9
+        },
+        {
+          "domainCode": "BEHAVIORAL",
+          "domainName": "Behavioral Health",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 2.1
+        },
+        {
+          "domainCode": "MULTISYSTEM",
+          "domainName": "Multisystem Processes & Disorders",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -0.9
+        },
+        {
+          "domainCode": "BIOSTATS",
+          "domainName": "Biostatistics & Epidemiology",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 2.1
+        }
+      ]
+    },
+    {
+      "assessmentId": "SYN001-A05",
+      "assessmentCode": "CCSSA",
+      "assessmentName": "Comprehensive Clinical Science Self-Assessment",
+      "family": "Self-Assessment",
+      "phase": "Clerkship",
+      "testDate": "2026-06-21",
+      "totalScore": 235,
+      "totalScoreType": "1-300",
+      "totalEpcEquivalent": 73,
+      "readiness": {
+        "target": "STEP2",
+        "probability": 72
+      },
+      "contentAreas": [
+        {
+          "domainCode": "CARDIO",
+          "domainName": "Cardiovascular System",
+          "score": 68,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -5.6
+        },
+        {
+          "domainCode": "RENAL",
+          "domainName": "Renal & Urinary System",
+          "score": 67,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -6.6
+        },
+        {
+          "domainCode": "RESP",
+          "domainName": "Respiratory System",
+          "score": 78,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 4.4
+        },
+        {
+          "domainCode": "GI",
+          "domainName": "Gastrointestinal System",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 2.4
+        },
+        {
+          "domainCode": "ENDO",
+          "domainName": "Endocrine System",
+          "score": 74,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.4
+        },
+        {
+          "domainCode": "HEME_IMMUNE",
+          "domainName": "Immune, Blood & Lymphoreticular Systems",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1.6
+        },
+        {
+          "domainCode": "MSK_SKIN",
+          "domainName": "Musculoskeletal, Skin & Subcutaneous Tissue",
+          "score": 74,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.4
+        },
+        {
+          "domainCode": "NEURO",
+          "domainName": "Nervous System & Special Senses",
+          "score": 75,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1.4
+        },
+        {
+          "domainCode": "REPRO",
+          "domainName": "Reproductive System",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1.6
+        },
+        {
+          "domainCode": "BEHAVIORAL",
+          "domainName": "Behavioral Health",
+          "score": 77,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 3.4
+        },
+        {
+          "domainCode": "MULTISYSTEM",
+          "domainName": "Multisystem Processes & Disorders",
+          "score": 71,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -2.6
+        },
+        {
+          "domainCode": "BIOSTATS",
+          "domainName": "Biostatistics & Epidemiology",
+          "score": 79,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 5.4
+        }
+      ]
+    },
+    {
+      "assessmentId": "SYN001-A06",
+      "assessmentCode": "MED_MASTERY",
+      "assessmentName": "Medicine Clinical Science Mastery Series",
+      "family": "Self-Assessment",
+      "phase": "Clerkship",
+      "testDate": "2026-07-16",
+      "totalScore": 21,
+      "totalScoreType": "1-30",
+      "totalEpcEquivalent": 72,
+      "readiness": {},
+      "contentAreas": [
+        {
+          "domainCode": "CARDIO",
+          "domainName": "Cardiovascular System",
+          "score": 71,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -3.1
+        },
+        {
+          "domainCode": "RENAL",
+          "domainName": "Renal & Urinary System",
+          "score": 68,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -6.1
+        },
+        {
+          "domainCode": "RESP",
+          "domainName": "Respiratory System",
+          "score": 80,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 5.9
+        },
+        {
+          "domainCode": "GI",
+          "domainName": "Gastrointestinal System",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1.9
+        },
+        {
+          "domainCode": "ENDO",
+          "domainName": "Endocrine System",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1.1
+        },
+        {
+          "domainCode": "HEME_IMMUNE",
+          "domainName": "Immune, Blood & Lymphoreticular Systems",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1.1
+        },
+        {
+          "domainCode": "MSK_SKIN",
+          "domainName": "Musculoskeletal, Skin & Subcutaneous Tissue",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1.1
+        },
+        {
+          "domainCode": "NEURO",
+          "domainName": "Nervous System & Special Senses",
+          "score": 75,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0.9
+        },
+        {
+          "domainCode": "REPRO",
+          "domainName": "Reproductive System",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1.1
+        },
+        {
+          "domainCode": "BEHAVIORAL",
+          "domainName": "Behavioral Health",
+          "score": 79,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 4.9
+        },
+        {
+          "domainCode": "MULTISYSTEM",
+          "domainName": "Multisystem Processes & Disorders",
+          "score": 72,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -2.1
+        },
+        {
+          "domainCode": "BIOSTATS",
+          "domainName": "Biostatistics & Epidemiology",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1.9
+        }
+      ]
+    },
+    {
+      "assessmentId": "SYN001-A07",
+      "assessmentCode": "CCSSA",
+      "assessmentName": "Comprehensive Clinical Science Self-Assessment",
+      "family": "Self-Assessment",
+      "phase": "Clerkship",
+      "testDate": "2026-08-07",
+      "totalScore": 241,
+      "totalScoreType": "1-300",
+      "totalEpcEquivalent": 75,
+      "readiness": {
+        "target": "STEP2",
+        "probability": 79
+      },
+      "contentAreas": [
+        {
+          "domainCode": "CARDIO",
+          "domainName": "Cardiovascular System",
+          "score": 65,
+          "performanceBand": "Lower",
+          "relativeToAssessment": -9
+        },
+        {
+          "domainCode": "RENAL",
+          "domainName": "Renal & Urinary System",
+          "score": 74,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0
+        },
+        {
+          "domainCode": "RESP",
+          "domainName": "Respiratory System",
+          "score": 75,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1
+        },
+        {
+          "domainCode": "GI",
+          "domainName": "Gastrointestinal System",
+          "score": 76,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 2
+        },
+        {
+          "domainCode": "ENDO",
+          "domainName": "Endocrine System",
+          "score": 74,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0
+        },
+        {
+          "domainCode": "HEME_IMMUNE",
+          "domainName": "Immune, Blood & Lymphoreticular Systems",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1
+        },
+        {
+          "domainCode": "MSK_SKIN",
+          "domainName": "Musculoskeletal, Skin & Subcutaneous Tissue",
+          "score": 75,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1
+        },
+        {
+          "domainCode": "NEURO",
+          "domainName": "Nervous System & Special Senses",
+          "score": 74,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 0
+        },
+        {
+          "domainCode": "REPRO",
+          "domainName": "Reproductive System",
+          "score": 73,
+          "performanceBand": "Similar",
+          "relativeToAssessment": -1
+        },
+        {
+          "domainCode": "BEHAVIORAL",
+          "domainName": "Behavioral Health",
+          "score": 77,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 3
+        },
+        {
+          "domainCode": "MULTISYSTEM",
+          "domainName": "Multisystem Processes & Disorders",
+          "score": 75,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 1
+        },
+        {
+          "domainCode": "BIOSTATS",
+          "domainName": "Biostatistics & Epidemiology",
+          "score": 77,
+          "performanceBand": "Similar",
+          "relativeToAssessment": 3
+        }
+      ]
+    }
+  ],
+  "practiceHistory": [
+    {
+      "practiceId": "P0001",
+      "practiceDate": "2026-06-25",
+      "domainCode": "CARDIO",
+      "domainName": "Cardiovascular System",
+      "questionCount": 10,
+      "correctCount": 6,
+      "percentCorrect": 60,
+      "mode": "Tutor",
+      "source": "Targeted recommendation"
+    },
+    {
+      "practiceId": "P0002",
+      "practiceDate": "2026-07-01",
+      "domainCode": "CARDIO",
+      "domainName": "Cardiovascular System",
+      "questionCount": 10,
+      "correctCount": 7,
+      "percentCorrect": 70,
+      "mode": "Tutor",
+      "source": "Targeted recommendation"
+    },
+    {
+      "practiceId": "P0003",
+      "practiceDate": "2026-07-21",
+      "domainCode": "RENAL",
+      "domainName": "Renal & Urinary System",
+      "questionCount": 10,
+      "correctCount": 7,
+      "percentCorrect": 70,
+      "mode": "Tutor",
+      "source": "Student selected"
+    },
+    {
+      "practiceId": "P0004",
+      "practiceDate": "2026-08-11",
+      "domainCode": "CARDIO",
+      "domainName": "Cardiovascular System",
+      "questionCount": 10,
+      "correctCount": 8,
+      "percentCorrect": 80,
+      "mode": "Timed",
+      "source": "Targeted recommendation"
+    }
+  ]
+}

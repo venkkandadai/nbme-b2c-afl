@@ -1,0 +1,42 @@
+[
+  {
+    "studentId": "SYN001",
+    "displayName": "Maya Patel",
+    "medicalSchoolYear": "MS3",
+    "currentFocus": "Internal Medicine",
+    "primaryGoal": "Prepare for the Medicine Subject Exam",
+    "isPrimaryDemo": true
+  },
+  {
+    "studentId": "SYN002",
+    "displayName": "Jordan Lee",
+    "medicalSchoolYear": "MS2",
+    "currentFocus": "Step 1 Preparation",
+    "primaryGoal": "Build readiness for USMLE Step 1",
+    "isPrimaryDemo": false
+  },
+  {
+    "studentId": "SYN003",
+    "displayName": "Sofia Martinez",
+    "medicalSchoolYear": "MS4",
+    "currentFocus": "Step 2 Preparation",
+    "primaryGoal": "Build readiness for USMLE Step 2",
+    "isPrimaryDemo": false
+  },
+  {
+    "studentId": "SYN004",
+    "displayName": "Ethan Williams",
+    "medicalSchoolYear": "MS1",
+    "currentFocus": "Foundational Sciences",
+    "primaryGoal": "Establish a strong pre-clerkship foundation",
+    "isPrimaryDemo": false
+  },
+  {
+    "studentId": "SYN005",
+    "displayName": "Amara Johnson",
+    "medicalSchoolYear": "MS3",
+    "currentFocus": "Clinical Clerkships",
+    "primaryGoal": "Improve performance across clerkships",
+    "isPrimaryDemo": false
+  }
+]
