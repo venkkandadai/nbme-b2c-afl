@@ -189,6 +189,10 @@ const focusTopics = isRecommended
   ? recommendedQuiz.focusTopics
   : [];
 
+  const reason = isRecommended
+  ? recommendedQuiz.reason
+  : "Student-created formative practice session";
+
   const response = await fetch(
     `${API_BASE_URL}/api/generate-practice`,
     {
