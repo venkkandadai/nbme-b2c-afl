@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || "";
+
 function App() {
   const [student, setStudent] = useState(null);
   const [page, setPage] = useState("overview");
@@ -186,24 +189,23 @@ const focusTopics = isRecommended
   ? recommendedQuiz.focusTopics
   : [];
 
-const reason = isRecommended
-  ? recommendedQuiz.reason
-  : "Student-created formative practice session";
-
-const response = await fetch("/api/generate-practice", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-  },
-  body: JSON.stringify({
-    domain: domainName,
-    questionCount,
-    mode,
-    learnerLevel: `${profile.medicalSchoolYear} clinical medical student`,
-    reason,
-    focusTopics,
-  }),
-});
+  const response = await fetch(
+    `${API_BASE_URL}/api/generate-practice`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        domain: domainName,
+        questionCount,
+        mode,
+        learnerLevel: `${profile.medicalSchoolYear} clinical medical student`,
+        reason,
+        focusTopics,
+      }),
+    }
+  );
   
       if (!response.ok) {
         throw new Error("Practice generation failed.");

@@ -197,6 +197,8 @@ Do not reinterpret, diagnose, or predict the learner's performance.
 // START SERVER
 // ------------------------------------------------------------
 
-app.listen(3001, () => {
-  console.log("Practice API running on http://localhost:3001");
+const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Practice API running on port ${PORT}`);
 });
